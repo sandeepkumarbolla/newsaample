@@ -6,7 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class StudentSampleApplication {
 	public String hello(){
-		return "hello";
+		return "hello GitHub";
 	}
 
 	public static void main(String[] args) {
