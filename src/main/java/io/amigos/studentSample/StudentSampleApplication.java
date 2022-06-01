@@ -5,6 +5,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 public class StudentSampleApplication {
+	public String hello(){
+		return "hello";
+	}
 
 	public static void main(String[] args) {
 		SpringApplication.run(StudentSampleApplication.class, args);
